@@ -1,0 +1,144 @@
+/* ------------------------------------------text formatting-------------------------------- */
+h3 {
+   font-size: 22px;
+   font-family: Georgia, sans-serif, Tahoma, sans-serif;
+   font-style: italic;
+   /* change to thin bold thick */
+   font-weight: 900;
+   /* alignment of text in block */
+   text-align: center;
+   /* underline text */
+   text-decoration: rgb(243, 19, 180)underline dotted;
+   /* set width of block element */
+   width: 25%;
+   color: rgb(252, 48, 2);
+   background-color: rgb(240, 224, 159);
+}
+
+
+a {
+   /* remove underline below a link */
+   text-decoration: none;
+   color: blue;
+
+}
+
+h1 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-decoration: underline dotted;
+}
+
+form {
+   /* space between line */
+   line-height: 2.25;
+   letter-spacing: 0.25px;
+}
+
+
+/* span
+{ 
+   font-size: larger;
+   color:rgb(252, 48, 2);
+   background-color: rgb(240, 224, 159);
+} */
+
+/* ----------------------------------selectors-------------------------------------------- */
+
+/* element selector
+input
+{
+  background-color: yellow;
+} */
+
+
+/* selector list 
+h1,h2,h3{
+   color:rgb(0, 255, 102);
+} */
+
+/* id selector */
+#id1 {
+   font-style: italic;
+}
+
+
+/* class selector */
+/* .class1 {
+   color: black;
+   font-style: oblique;
+} */
+.btn{
+   background-color: cornsilk;
+   padding: 2px;
+}
+
+/* descendent selector */
+form b {
+   color: rgb(43, 41, 1);
+   text-decoration: underline;
+}
+
+.c1 b {
+   font-size: 20px;
+   text-decoration: underline dotted;
+   font-style: italic;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+/* adjacent selector */
+h3+ol {
+   text-decoration: underline solid yellow;
+
+}
+
+/* attribute selector */
+
+input[type="date"] {
+   background-color: rgb(237, 185, 170);
+}
+ 
+/* pseudo class */
+
+input:hover
+{
+   background-color:aquamarine;
+}
+a:hover 
+{
+   text-decoration: underline;
+}
+a:active 
+{
+   color:chartreuse;
+}
+/* input[type="checkbox"]:checked
+{
+   background-color:aquamarine;
+} */
+
+table tr:nth-of-type(2n)
+{
+   background-color:cornsilk;
+}
+thead
+{
+   background-color:cornsilk;
+}
+/* psuedo element */
+form b::first-letter
+{
+   color:red ;
+}
+
+h3::first-letter
+{
+   color:rgb(0, 0, 0);
+}
+/* p{
+  background-color: yellow;
+} */
+/* a[href*=".com"]
+{
+   color:red;
+}
+  select all a containing .com */
